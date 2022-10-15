@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <title>Tinkat</title>
+</head>
+<body>
+
+    <!-- upper-body-starts -->
+
+    <div class="upper-body" id="home">
+        
+      <!-- navbar -->
+    
+      
+      <div class="navbar">
+        <p>tinkat <i class="fa-solid fa-fire"></i></p>
+        <nav>
+          <ul id="menulist">
+            <li><a href="#contact-section">Contact</a></li>
+            <li><a href="#pricing-section">Pricing</a></li>
+            <li><a href="#download-section">Download</a></li>
+            
+          </ul>
+        </nav>
+        <img class="menu-icon" src="menu.png" alt="menu" onclick="togglemenu()">
+        
+      </div>
+      
+      <!-- first container -->
+
+      <div class="upper-info">
+          <div class="upper-text">
+                  <h1 class="top-heading">Meet new or your Neighbours Cat from Anywhere</h1>
+                  <button class="download-btn-1"><i class="fa-brands fa-apple"></i> Download</button>
+                  <button class="download-btn-2"><i class="fa-brands fa-google-play"></i> Download</button>
+          </div>
+
+          <div class="upper-img">
+                  <img class="img-1" src="cats.jfif" alt="">
+          </div>
+      </div>
+    </div>
+  
+    <!-- upper-body-ends -->
+
+    <!-- qualities-section-starts -->
+
+    <div class="qualities-section">
+
+      <div class="qualities">
+        <i class="fa-solid fa-circle-check fa-5x icons"></i>
+        <h2>Easy to use</h2>
+        <p>So easy to use,even your <br> cat can do it</p>
+      </div>
+      
+      <div class="qualities">
+        <i class="fa-solid fa-bullseye fa-5x icons"></i>
+        <h2>Elite Clientele</h2>
+        <p>We have all the cats. <br> the greatest cats</p>
+      </div>
+
+      <div class="qualities">
+        <i class="fa-solid fa-heart fa-5x icons"></i>
+        <h2>Guaranteed to work</h2>
+        <p>Find the love of your cat's <br> life or your money back.</p>
+      </div>
+
+    </div>
+    
+    <!-- qualities-section-ends -->
+
+    <!-- company-logos -->
+
+    <div class="color">
+      <h1>Our Sponsors</h1>
+      <div class="logo">
+      <img class="logo1" src="company-logo1.jpg"  alt="">
+      <img class="logo2" src="logo2.jpg" alt="">
+      
+      <img class="logo4" src="logo4.jpg" alt="">
+      </div>
+
+    </div>
+    
+
+    <!-- company-logos -->
+
+
+    <!-- Plans-section -->
+  <div id="pricing-section">
+    <div class="plan-heading">
+      <h1>A Plan for Every cat's Needs</h1>
+          <p>Simple and affordable price for you and your cat</p>
+
+    </div>
+
+    <div class="plan-container">
+        <div class="plans">
+          <h2>Persian</h2>
+          <h1>Free</h1>
+          <p>5 matches per day</p>
+          <p>10 messages per day</p>
+          <p>Unlimited App Usage</p> 
+          <button class="btn1">Sign up</button> 
+        </div>
+
+        <div class="plans">
+          <h2>Munchkin</h2>
+          <h1>$49/mo</h1>
+          <p>Unlimited matches</p>
+          <p>Unlimited messages</p>
+          <p>Unlimited App Usage</p>
+          <button class="btn2">Sign up</button> 
+        </div>
+
+        <div class="plans">
+          <h2>bobtail</h2>
+          <h1>$99/mo</h1>
+          <p>Priority matches</p>
+          <p>Unlimited messages</p>
+          <p>Unlimited App Usage</p>
+          <button class="btn3">Sign up</button> 
+        </div>
+    </div>
+  </div>
+    
+   
+  <!-- plans-section-ends -->
+
+  <!-- download-section -->
+  
+  
+  <div id="download-section" class="download-sec">
+    
+    <h1>Find the True Love of Your Dog's <br> Life Today.</h1>
+    <button class="download-btn-1"><i class="fa-brands fa-apple"></i> Download</button>
+    <button class="download-btn-2"><i class="fa-brands fa-google-play"></i> Download</button>
+  
+  </div>
+
+  <!-- download-sec-ends -->
+
+  <!-- contact-section -->
+
+
+  <div class="contact-sec" id="contact-section">
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+    <a href=""><i class="fa-solid fa-envelope"></i></a>
+    <p>@ Copyright 2018 TinDog</p>
+  </div>
+  
+  <!-- contact-section-ends -->
+
+  <!-- back-to-top-button -->
+
+  <button class="home-btn"><a href="#home">Back to top</a></button>
+  
+    
+    
+    <script>
+      var menulist = document.getElementById("menulist");
+      menulist.style.maxHeight = "0px";
+      function togglemenu(){
+        if(menulist.style.maxHeight == "0px")
+        {
+          menulist.style.maxHeight = "130px";
+        }
+        else{
+          menulist.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+  
+</body>
+</html>
